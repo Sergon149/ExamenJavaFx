@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examenjavafx.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="tx1" textFill="#da1111">
+      <font>
+         <Font size="35.0" />
+      </font></Label>
+    <Button fx:id="b1" onAction="#b1clic" text="H" textFill="#ab3232">
+      <font>
+         <Font size="15.0" />
+      </font></Button>
+   <Button fx:id="b2" mnemonicParsing="false" onAction="#b2clic" text="O" textFill="#1230e0">
+      <font>
+         <Font size="18.0" />
+      </font></Button>
+   <Button fx:id="b3" mnemonicParsing="false" onAction="#b3clic" text="L" textFill="#e410e1">
+      <font>
+         <Font size="23.0" />
+      </font></Button>
+   <Button fx:id="b4" mnemonicParsing="false" onAction="#b4clic" text="A" textFill="LIME">
+      <font>
+         <Font size="29.0" />
+      </font></Button>
+</VBox>
